@@ -11,6 +11,7 @@ contract GameItem is ERC721URIStorage {
 
     constructor() ERC721("GameItem", "ITM") {}
 
+    // AwareItem to address
     function awardItem(address player, string memory tokenURI)
         public
         returns (uint256)
